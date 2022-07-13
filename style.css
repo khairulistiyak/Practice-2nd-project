@@ -1,0 +1,71 @@
+:root {
+    --heder-color: #222122;
+}
+
+body {
+    background-color: #dddddd;
+    margin: 0%;
+}
+
+.top-menu {
+    background-color: #222122;
+    padding-left: 60%;
+    padding-right: 10%;
+    display: flex;
+}
+
+.top-menu>header:hover {
+    background-color: #616161;
+}
+
+.half-width {
+    background-color: #3b3a3b;
+    padding: 10px 20px;
+    margin: 20px;
+    border-radius: 5px;
+    color: rgb(197, 197, 197);
+    font-size: 15px;
+    font-weight: 700;
+
+}
+
+.top-banner {
+    background-image: url(images/color-tab.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.header-name {
+
+    padding-top: 100px;
+    display: flex;
+    background-position: center;
+}
+
+.header-name-width {
+    background-position: center;
+    padding-left: 30%;
+    padding-right: 30%;
+    text-align: center;
+    color: rgb(255, 254, 254);
+
+}
+
+.istiyak {
+    font-size: 50px;
+    text-shadow: 2px 2px 5px #000000;
+
+}
+
+.yt-button {
+    background-color: coral;
+    text-decoration: none;
+    padding: 8px 10px;
+    border-radius: 5px;
+    border: 0px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+}
