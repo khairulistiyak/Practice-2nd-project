@@ -149,6 +149,7 @@ p {
     margin: 60px;
 }
 
+
 .best-performance-flex {
     display: flex;
     margin-bottom: 50px;
@@ -202,4 +203,67 @@ p {
 
 hr {
     width: 20px;
+}
+
+.our-team {
+    color: white;
+    display: flex;
+    display: block;
+    text-align: center;
+
+}
+
+.our-team {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 8%;
+
+}
+
+.our-team-profile {
+    border: #474747 solid 1px;
+    background-color: #3b3a3b;
+    display: flex;
+    display: block;
+    text-align: center;
+    margin: 2%;
+    padding: 5%;
+}
+
+.our-team-profile img {
+    border: #dd6e00 solid 5px;
+    border-radius: 140px;
+    width: 200px;
+
+}
+
+.our-team-profile h1 {
+    color: #dd6e00;
+}
+
+.our-team-profile h4 {
+    color: #444444;
+}
+
+
+.contact-me {
+    display: flex;
+    color: aliceblue;
+}
+
+.contact-me h4 {
+    color: #868686;
+}
+
+.contact-me h1 {
+    color: #dd6e00;
+}
+
+.contact-me-width {
+
+    width: 50%;
+    padding: 80px;
+    margin: 50px;
+    background-color: #272727;
 }
