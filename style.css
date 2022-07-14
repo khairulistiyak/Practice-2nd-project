@@ -45,10 +45,10 @@ body {
 
     padding-top: 100px;
     display: flex;
-    margin-left: auto;
     margin-right: auto;
-    padding-left: 5%;
-    padding-right: 5%;
+    padding-left: 10%;
+    padding-right: 10%;
+
 
 
 }
@@ -179,4 +179,27 @@ p {
 .youtube-video {
     margin: auto;
     width: 70%;
+}
+
+.video-view {
+    color: #dd6e00;
+    display: flex;
+    text-align: center;
+    padding-left: 14%;
+
+}
+
+.video-view-box-style {
+
+    margin: 50px;
+}
+
+.video-view-box-style h1 {
+    color: #dd6e00;
+    font-size: 50px;
+    font-weight: 300;
+}
+
+hr {
+    width: 20px;
 }
