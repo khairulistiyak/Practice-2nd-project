@@ -3,7 +3,7 @@
 }
 
 body {
-    background-color: #616060;
+    background-color: #1a1a1a;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     margin: 0%;
 }
@@ -20,7 +20,7 @@ body {
 }
 
 .nav-color {
-    color: #ffc400;
+    color: #dd6e00;
     ;
 }
 
@@ -63,6 +63,10 @@ body {
 
 }
 
+#ki {
+    color: #dd6e00;
+}
+
 .istiyak {
     font-size: 70px;
 }
@@ -90,9 +94,10 @@ button a {
 }
 
 
+
+
 .yt-button:hover {
     background-color: #000000;
-    transform: rotateX(-50deg);
 }
 
 
@@ -113,7 +118,7 @@ button a {
 }
 
 .service h1 {
-    color: #ffc400;
+    color: #dd6e00;
     font-size: 50px;
 }
 
@@ -121,5 +126,55 @@ button a {
     width: 50%;
     display: flex;
     margin: auto;
+    font-size: medium;
+}
 
+p {
+    color: #999999;
+    ;
+}
+
+.service-box {
+    display: flex;
+
+}
+
+.service-box h1 {
+    color: white;
+}
+
+.box-style {
+    border: solid #808080 2px;
+    border-radius: 10px;
+    padding: 40px;
+    margin: 60px;
+}
+
+.best-performance-flex {
+    display: flex;
+    margin-bottom: 50px;
+}
+
+.best-performance-style {
+    margin: 30px;
+    padding: 50px;
+    padding-bottom: 0px;
+
+
+}
+
+.best-performance-style img {
+    height: 500px;
+
+}
+
+.best-performance-style h1 {
+    color: #dd6e00;
+    font-size: 40px;
+}
+
+.youtube-video {
+    display: flex;
+    margin: auto;
+    width: 80%;
 }
