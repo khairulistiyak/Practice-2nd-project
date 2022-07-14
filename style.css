@@ -267,3 +267,10 @@ hr {
     margin: 50px;
     background-color: #272727;
 }
+
+footer {
+    display: flex;
+    padding-left: 30%;
+    text-align: center;
+    color: #999999;
+}
