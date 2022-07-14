@@ -19,12 +19,16 @@ body {
     background-color: #616161;
 }
 
+.nav-color {
+    color: #ffc400;
+    ;
+}
+
 .half-width {
     background-color: #3b3a3b;
     padding: 10px 20px;
     margin: 20px;
     border-radius: 5px;
-    color: rgb(197, 197, 197);
     font-size: 15px;
     font-weight: 700;
 
@@ -60,7 +64,7 @@ body {
 }
 
 .istiyak {
-    font-size: 50px;
+    font-size: 70px;
 }
 
 .yt-button {
@@ -79,6 +83,7 @@ body {
 
 }
 
+
 button a {
     text-decoration: none;
     color: white;
@@ -87,4 +92,34 @@ button a {
 
 .yt-button:hover {
     background-color: #000000;
+    transform: rotateX(-50deg);
+}
+
+
+
+.flex-item {
+    display: flex;
+    display: block;
+
+}
+
+.subject-color {
+    color: #868686;
+}
+
+.service {
+    text-align: center;
+
+}
+
+.service h1 {
+    color: #ffc400;
+    font-size: 50px;
+}
+
+.service p {
+    width: 50%;
+    display: flex;
+    margin: auto;
+
 }
