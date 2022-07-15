@@ -211,6 +211,7 @@ hr {
     display: flex;
     display: block;
     text-align: center;
+    padding-bottom: 60px;
 
 }
 
@@ -306,6 +307,7 @@ footer {
     display: flex;
     margin-left: auto;
     margin: 10%;
+    margin-top: 30px;
 }
 
 .pkag-style {
@@ -316,6 +318,7 @@ footer {
     text-align: center;
     background-color: #222122;
     padding-bottom: 40px;
+    padding-top: 0px;
 }
 
 .pkag-style h2 {
@@ -334,10 +337,28 @@ footer {
 }
 
 .button-Buy-Now {
+    background-color: #3b3a3b;
+    padding: 5px 10px 5px 10px;
+    color: #e6e6e6;
+    border: none;
+    border-radius: 4px;
+    font-size: 20px;
+}
+
+.button-Buy-Now-premium {
     background-color: #dd6e00;
     padding: 5px 10px 5px 10px;
     color: #e6e6e6;
     border: none;
-    border-radius: 2px;
+    border-radius: 4px;
     font-size: 20px;
+}
+
+.button-Buy-Now-premium :hover {
+    background-color: #525151;
+
+}
+
+.button-Buy-Now:hover {
+    background-color: #1a1a1a;
 }
