@@ -16,10 +16,11 @@ body {
 
 .top-menu>header:hover {
     background-color: #616161;
+    transition: 0.2s;
 }
 
 .nav-color {
-    color: #dd6e00;
+    color: #e6e6e6;
     ;
 }
 
@@ -111,17 +112,17 @@ button a {
     color: #868686;
 }
 
-.service {
+.subject-tagline {
     text-align: center;
 
 }
 
-.service h1 {
+.subject-tagline h1 {
     color: #dd6e00;
     font-size: 50px;
 }
 
-.service p {
+.subject-tagline p {
     width: 50%;
     display: flex;
     margin: auto;
@@ -279,7 +280,7 @@ footer {
     display: flex;
     margin-left: auto;
     margin-right: auto;
-    padding-left: 30px;
+    padding-left: 38px;
 
 }
 
@@ -290,11 +291,53 @@ footer {
     border-radius: 5px;
     background-color: #dd6e00;
     padding: 4px 7px;
+    border: rgb(66, 66, 66) solid 2px;
 
 
 }
 
 .sm-icon img:hover {
-    background-color: #808080;
+    background-color: #ffffff0e;
+    transition: 0.2s;
 
+}
+
+.pkag-flex {
+    display: flex;
+    margin-left: auto;
+    margin: 10%;
+}
+
+.pkag-style {
+    margin: 1%;
+    padding: 0% 25px 5px 25px;
+    margin: 20px;
+    color: #fffefe;
+    text-align: center;
+    background-color: #222122;
+    padding-bottom: 40px;
+}
+
+.pkag-style h2 {
+    color: #dd6e00;
+    font-weight: 700;
+    font-size: 35px;
+}
+
+.pkag-style h2 span {
+    font-size: large;
+}
+
+.pkag-style p {
+    padding-bottom: 10px;
+    text-align: left;
+}
+
+.button-Buy-Now {
+    background-color: #dd6e00;
+    padding: 5px 10px 5px 10px;
+    color: #e6e6e6;
+    border: none;
+    border-radius: 2px;
+    font-size: 20px;
 }
